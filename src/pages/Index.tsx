@@ -1,11 +1,11 @@
-import { BankingLayout } from "@/components/BankingLayout";
-import { BankingDashboard } from "@/components/BankingDashboard";
+import { MaterialBankingLayout } from "@/components/MaterialBankingLayout";
+import { MaterialBankingDashboard } from "@/components/MaterialBankingDashboard";
 
 const Index = () => {
   return (
-    <BankingLayout>
-      <BankingDashboard />
-    </BankingLayout>
+    <MaterialBankingLayout>
+      <MaterialBankingDashboard />
+    </MaterialBankingLayout>
   );
 };
 
